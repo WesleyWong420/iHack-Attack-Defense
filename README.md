@@ -4,9 +4,11 @@ Please study and prepare :(
 ## Overview
 - [How the Defcon Attack/Defense CTF 2018 Worked - LiveOverFlow](https://www.youtube.com/watch?v=RkaLyji9pNs)
 - [CISCO SECCON AD-CTF 2020](https://medium.com/csictf/cisco-seccon-2020-ad-ctf-2614b27f387a)
+- [Vuln Service Example](https://github.com/oldeurope/rwthctf2012/tree/master/services)
 
 ## Network Monitor & Detection
 - [Caronte](https://github.com/eciavatta/caronte)
+- [Cardinal](https://github.com/vidar-team/Cardinal)
 
 ## Exploit Runner
 - [CSE 545 F18: 4-16-18 "Attack-Defense CTF Prep](https://github.com/AchyuthaBharadwaj/PCTF)
@@ -20,3 +22,7 @@ Please study and prepare :(
 - [ChatGPT](https://chat.openai.com/chat)
 - [Vulnerable Code Snippets 1](https://github.com/snoopysecurity/Vulnerable-Code-Snippets)
 - [Vulnerable Code Snippets 2](https://github.com/yeswehack/vulnerable-code-snippets)
+
+## Strategy
+- Capture PCAP and Replay Attack (TCPDump + Wireshark)
+- 
