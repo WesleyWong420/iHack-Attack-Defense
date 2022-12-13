@@ -1,2 +1,8 @@
 # iHack Attack & Defence CTF
-Prepare for Attack &amp; Defense CTF for iHack 2022
+
+## Overview
+
+[How the Defcon Attack/Defense CTF 2018 Worked]: https://www.youtube.com/watch?v=RkaLyji9pNs
+
+
+
