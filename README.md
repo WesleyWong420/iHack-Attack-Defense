@@ -25,4 +25,3 @@ Please study and prepare :(
 
 ## Strategy
 - Capture PCAP and Replay Attack (TCPDump + Wireshark)
-- 
