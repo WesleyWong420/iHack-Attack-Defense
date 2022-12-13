@@ -1,4 +1,4 @@
-# iHack Attack & Defence CTF
+# iHack Attack & Defense CTF
 Please study and prepare :(
 
 ## Overview
