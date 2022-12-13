@@ -16,7 +16,7 @@ Please study and prepare :(
 - [CISCO SECCON AD-CTF 2020](https://medium.com/csictf/cisco-seccon-2020-ad-ctf-2614b27f387a)
 
 ## Automated Code Scanner
-- **IMPORATNT:** [Joern](https://github.com/joernio/joern) [[Demo](https://www.youtube.com/watch?v=qtGRNb_2Khs)]
+- **IMPORTANT:** [Joern](https://github.com/joernio/joern) [[Demo](https://www.youtube.com/watch?v=qtGRNb_2Khs)]
 - [Snyk](https://github.com/snyk/) [[Demo](https://www.youtube.com/watch?v=tyL3Ouais1c)]
 
 ## Static Code Analysis 
