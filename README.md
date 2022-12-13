@@ -4,7 +4,7 @@
 - [How the Defcon Attack/Defense CTF 2018 Worked - LiveOverFlow](https://www.youtube.com/watch?v=RkaLyji9pNs)
 - [CISCO SECCON AD-CTF 2020](https://medium.com/csictf/cisco-seccon-2020-ad-ctf-2614b27f387a)
 
-## Monitor & Detection
+## Network Monitor & Detection
 - [Caronte](https://github.com/eciavatta/caronte)
 
 ## Exploit Runner
