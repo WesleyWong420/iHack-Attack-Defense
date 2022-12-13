@@ -31,7 +31,11 @@ Please study and prepare :(
 ### Visibility
 - **IMPORTANT:** Capture PCAP and Replay Attack (TCPDump + Tshark)
 
+### Attacking
+- Backdoor
+
 ### Patching
 - Find misconfiguration on Linux Host using LSE
+- Least Privilege
 - Firewall Rule
 - Change default passwords
