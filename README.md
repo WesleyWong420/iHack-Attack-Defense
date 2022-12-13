@@ -27,6 +27,6 @@ Please study and prepare :(
 ## Host Enumeration
 - [Linux Smart Enumeration](https://github.com/diego-treitos/linux-smart-enumeration)
 
-## Strategy
+## Strategy (Offensive > Defensive)
 - **IMPORTANT:** Capture PCAP and Replay Attack (TCPDump + Tshark)
 - Find misconfiguration on Linux Host using LSE.
