@@ -18,17 +18,19 @@ Please study and prepare :(
 - [CSE 545 F18: 4-16-18 "Attack-Defense CTF Prep](https://github.com/AchyuthaBharadwaj/PCTF)
 - **IMPORTANT:** [CISCO SECCON AD-CTF 2020](https://medium.com/csictf/cisco-seccon-2020-ad-ctf-2614b27f387a)
 
+### Methodology
+- Plant Persistence Backdoor 
+
 ### References
 - [HackTricks](https://book.hacktricks.xyz/welcome/readme)
 - [Pentest Everything](https://viperone.gitbook.io/pentest-everything/)
 - [Pentester's Promiscuous Notebook](https://ppn.snovvcrash.rocks/)
-- 
-### Methodology
-- Plant Persistence Backdoor 
 
 ## Patching
 ### Tools
 - [Linux Smart Enumeration](https://github.com/diego-treitos/linux-smart-enumeration)
+- [Joern](https://github.com/joernio/joern) [[Demo](https://www.youtube.com/watch?v=qtGRNb_2Khs)]
+- [Snyk](https://github.com/snyk/) [[Demo](https://www.youtube.com/watch?v=tyL3Ouais1c)]
 
 ### Methodology
 - Find misconfiguration on Linux Host using LSE
@@ -36,11 +38,7 @@ Please study and prepare :(
 - Firewall Rule
 - Change default passwords
 
-### Automated Code Scanner
-- [Joern](https://github.com/joernio/joern) [[Demo](https://www.youtube.com/watch?v=qtGRNb_2Khs)]
-- [Snyk](https://github.com/snyk/) [[Demo](https://www.youtube.com/watch?v=tyL3Ouais1c)]
-
-### Static Code Analysis 
+### References
 - [ChatGPT](https://chat.openai.com/chat)
 - [Vulnerable Code Snippets 1](https://github.com/snoopysecurity/Vulnerable-Code-Snippets)
 - [Vulnerable Code Snippets 2](https://github.com/yeswehack/vulnerable-code-snippets)
