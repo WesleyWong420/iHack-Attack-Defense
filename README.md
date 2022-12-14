@@ -23,8 +23,11 @@ Please study and prepare :(
 - [Vulnerable Code Snippets 2](https://github.com/yeswehack/vulnerable-code-snippets)
 - [Vuln Service Example](https://github.com/oldeurope/rwthctf2012/tree/master/services)
 
-## Host Enumeration
+## Additional Tools
 - [Linux Smart Enumeration](https://github.com/diego-treitos/linux-smart-enumeration)
+- [HackTricks](https://book.hacktricks.xyz/welcome/readme)
+- [Pentest Everything](https://viperone.gitbook.io/pentest-everything/)
+- [Pentester's Promiscuous Notebook](https://ppn.snovvcrash.rocks/)
 
 ## Strategy
 ### Visibility
