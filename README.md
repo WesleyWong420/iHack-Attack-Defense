@@ -6,38 +6,42 @@ Please study and prepare :(
 - **IMPORTANT:** [Defcamp finals 2022: Feedback on our first Attack/Defense CTF](https://www.riskinsight-wavestone.com/en/2022/11/defcamp-finals-2022-feedback-on-our-first-attack-defense-ctf/)
 
 ## Network Monitor & Detection
+### Tools
 - **IMPORTANT:** [Caronte](https://github.com/eciavatta/caronte)
 - [Cardinal](https://github.com/vidar-team/Cardinal)
 
-## Exploit Runner
+### Methodology
+- **IMPORTANT:** Capture PCAP and Replay Attack (TCPDump + Tshark)
+
+## Attacking
+### Exploit Runner
 - [CSE 545 F18: 4-16-18 "Attack-Defense CTF Prep](https://github.com/AchyuthaBharadwaj/PCTF)
 - **IMPORTANT:** [CISCO SECCON AD-CTF 2020](https://medium.com/csictf/cisco-seccon-2020-ad-ctf-2614b27f387a)
 
-## Automated Code Scanner
-- [Joern](https://github.com/joernio/joern) [[Demo](https://www.youtube.com/watch?v=qtGRNb_2Khs)]
-- [Snyk](https://github.com/snyk/) [[Demo](https://www.youtube.com/watch?v=tyL3Ouais1c)]
-
-## Static Code Analysis 
-- [ChatGPT](https://chat.openai.com/chat)
-- [Vulnerable Code Snippets 1](https://github.com/snoopysecurity/Vulnerable-Code-Snippets)
-- [Vulnerable Code Snippets 2](https://github.com/yeswehack/vulnerable-code-snippets)
-- [Vuln Service Example](https://github.com/oldeurope/rwthctf2012/tree/master/services)
-
-## Additional Tools
-- [Linux Smart Enumeration](https://github.com/diego-treitos/linux-smart-enumeration)
+### References
 - [HackTricks](https://book.hacktricks.xyz/welcome/readme)
 - [Pentest Everything](https://viperone.gitbook.io/pentest-everything/)
 - [Pentester's Promiscuous Notebook](https://ppn.snovvcrash.rocks/)
+- 
+### Methodology
+- Plant Persistence Backdoor 
 
-## Strategy
-### Visibility
-- **IMPORTANT:** Capture PCAP and Replay Attack (TCPDump + Tshark)
+## Patching
+### Tools
+- [Linux Smart Enumeration](https://github.com/diego-treitos/linux-smart-enumeration)
 
-### Attacking
-- Backdoor
-
-### Patching
+### Methodology
 - Find misconfiguration on Linux Host using LSE
 - Least Privilege
 - Firewall Rule
 - Change default passwords
+
+### Automated Code Scanner
+- [Joern](https://github.com/joernio/joern) [[Demo](https://www.youtube.com/watch?v=qtGRNb_2Khs)]
+- [Snyk](https://github.com/snyk/) [[Demo](https://www.youtube.com/watch?v=tyL3Ouais1c)]
+
+### Static Code Analysis 
+- [ChatGPT](https://chat.openai.com/chat)
+- [Vulnerable Code Snippets 1](https://github.com/snoopysecurity/Vulnerable-Code-Snippets)
+- [Vulnerable Code Snippets 2](https://github.com/yeswehack/vulnerable-code-snippets)
+- [Vuln Service Example](https://github.com/oldeurope/rwthctf2012/tree/master/services)
