@@ -28,6 +28,7 @@ Please study and prepare :(
 
 ### Strategy
 - Plant Persistence Backdoor 
+- Rust Scan > Nmap
 
 ### References
 - [HackTricks](https://book.hacktricks.xyz/welcome/readme)
@@ -36,7 +37,7 @@ Please study and prepare :(
 - [Linux Persistence Technique](https://www.linode.com/docs/guides/linux-red-team-persistence-techniques/)
 
 ## Patching
-> Remember to backup before patching
+> Remember to backup before patching!
 ### Tools
 - [Linux Smart Enumeration](https://github.com/diego-treitos/linux-smart-enumeration)
 - [Joern](https://github.com/joernio/joern) [[Demo](https://www.youtube.com/watch?v=qtGRNb_2Khs)]
