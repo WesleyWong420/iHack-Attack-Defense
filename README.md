@@ -47,8 +47,9 @@ Please study and prepare :(
 - Find misconfiguration on Linux Host using LSE
 - Source Code Review
 - Least Privilege (Access Control)
-- Firewall Rule
 - Change Default Passwords
+- Firewall Rule
+- SECCOMP?
 
 ### References
 - [ChatGPT](https://chat.openai.com/chat)
