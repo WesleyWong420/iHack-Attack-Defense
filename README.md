@@ -13,8 +13,8 @@ Please study and prepare :(
 
 ### Strategy
 - **IMPORTANT:** Capture PCAP and Replay Attack (TCPDump + Tshark)
-- Parse Event Logs & `access.log` File
-- Check Established Connection `netstat` & Kill Enemy Shell
+- Parse event logs & `access.log` file
+- Check established connection `netstat` & kill enemy shell
 
 ## Attacking
 ### Exploit Runner
@@ -37,6 +37,7 @@ Please study and prepare :(
 
 ### Strategy
 - Find misconfiguration on Linux Host using LSE
+- Source Code Review
 - Least Privilege (Access Control)
 - Firewall Rule
 - Change Default Passwords
