@@ -8,7 +8,7 @@ Please study and prepare :(
 - **VERY IMPORTANT:** [CISCO SECCON AD-CTF 2020](https://medium.com/csictf/cisco-seccon-2020-ad-ctf-2614b27f387a)
 
 ## Vuln Services
-- [CJ2018 CTF](https://github.com/farisv/CJ2018-Final-CTF)
+- [CJ2018 CTF](https://github.com/farisv/CJ2018-Final-CTF) [[Solution](https://rhamaa.github.io/post/2018/10/17/Cyber-Jawara-2018-Final-Web-Exploitation/)]
 - [Vuln Service Example](https://github.com/oldeurope/rwthctf2012/tree/master/services)
 
 ## Network Monitor & Detection
