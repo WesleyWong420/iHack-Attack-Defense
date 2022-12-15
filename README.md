@@ -16,14 +16,20 @@ Please study and prepare :(
 - [Caronte](https://github.com/eciavatta/caronte)
 
 ### Strategy
-- **IMPORTANT:** Capture PCAP and Replay Attack (TCPDump + Tshark)
-- Parse event logs & `access.log` file
-- Check established connection `netstat` & kill enemy shell
+
 - Remove Backdoor
   - Hidden Files `.shell.php`
   - SSH Keys
   - Cronjobs
   - User Accounts
+- Incident Response
+  - `w`
+  - `ps -aef --forest`
+  - `ss -anp {PID}`   
+  - `kill -9 {PID}`
+  - `cd /proc/{PID}; ls -al | grep cwd`
+  - `tail /var/log/apache2/access.log`
+  - `tcpdump -i tun0 -w tcpdump.cap -s 0 -n "port not 22"`
 
 ## Attacking
 ### Exploit Runner
@@ -31,7 +37,7 @@ Please study and prepare :(
 
 ### Strategy
 - Rust Scan > Nmap
-- SSH Backdoor [persistence.sh](persistence.sh)
+- SSH Backdoor [[persistence.sh](persistence.sh)]
 
 ### References
 - [HackTricks](https://book.hacktricks.xyz/welcome/readme)
