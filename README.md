@@ -65,7 +65,7 @@ Please study and prepare :(
 - Firewall Rule
 - SECCOMP [[Demo](https://attackdefense.com/challengedetailsnoauth?cid=1826)]
 - Hardening
-  - Disable unsafe functions in `php.ini`
+  - Disable unsafe functions like `shell_exec` in `php.ini` config file
 
 ### References
 - [ChatGPT](https://chat.openai.com/chat)
