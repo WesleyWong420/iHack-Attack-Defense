@@ -14,7 +14,7 @@ Please study and prepare :(
 ### Strategy
 - **IMPORTANT:** Capture PCAP and Replay Attack (TCPDump + Tshark)
 - Parse Event Logs & `access.log` File
-- Check Established Connection (`netstat`) & Kill Enemy Shell
+- Check Established Connection `netstat` & Kill Enemy Shell
 
 ## Attacking
 ### Exploit Runner
