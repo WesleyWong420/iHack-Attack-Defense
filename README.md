@@ -54,7 +54,7 @@ Please study and prepare :(
 - Least Privilege (Access Control)
 - Change Default Passwords
 - Firewall Rule
-- SECCOMP?
+- SECCOMP [[Demo](https://attackdefense.com/challengedetailsnoauth?cid=1826)]
 
 ### References
 - [ChatGPT](https://chat.openai.com/chat)
