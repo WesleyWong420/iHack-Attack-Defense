@@ -15,6 +15,11 @@ Please study and prepare :(
 - **IMPORTANT:** Capture PCAP and Replay Attack (TCPDump + Tshark)
 - Parse event logs & `access.log` file
 - Check established connection `netstat` & kill enemy shell
+- Remove Backdoor
+  - Hidden Files `.shell.php`
+  - SSH Keys
+  - Cronjobs
+  - User Accounts
 
 ## Attacking
 ### Exploit Runner
@@ -41,7 +46,6 @@ Please study and prepare :(
 - Least Privilege (Access Control)
 - Firewall Rule
 - Change Default Passwords
-- Remove Backdoor (Hidden Files `.shell.php`)
 
 ### References
 - [ChatGPT](https://chat.openai.com/chat)
