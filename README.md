@@ -36,13 +36,13 @@ Please study and prepare :(
 - [Linux Persistence Technique](https://www.linode.com/docs/guides/linux-red-team-persistence-techniques/)
 
 ## Patching
+> Remember to backup before patching
 ### Tools
 - [Linux Smart Enumeration](https://github.com/diego-treitos/linux-smart-enumeration)
 - [Joern](https://github.com/joernio/joern) [[Demo](https://www.youtube.com/watch?v=qtGRNb_2Khs)]
 - [Snyk](https://github.com/snyk/) [[Demo](https://www.youtube.com/watch?v=tyL3Ouais1c)]
 
 ### Strategy
-- **Remember to backup before patching**
 - Find misconfiguration on Linux Host using LSE
 - Source Code Review
 - Least Privilege (Access Control)
