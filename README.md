@@ -64,6 +64,8 @@ Please study and prepare :(
 - Change Default Passwords
 - Firewall Rule
 - SECCOMP [[Demo](https://attackdefense.com/challengedetailsnoauth?cid=1826)]
+- Hardening
+  - Disable unsafe functions in `php.ini`
 
 ### References
 - [ChatGPT](https://chat.openai.com/chat)
