@@ -3,7 +3,7 @@ Please study and prepare :(
 
 ## Overview
 - [How the Defcon Attack/Defense CTF 2018 Worked - LiveOverFlow](https://www.youtube.com/watch?v=RkaLyji9pNs)
-- [HackTheBox - CyberMayhem by Ippsec](https://www.youtube.com/watch?v=o42dgCOBkRk)
+- **USEFUL**: [HackTheBox - CyberMayhem by Ippsec](https://www.youtube.com/watch?v=o42dgCOBkRk)
 - **IMPORTANT:** [Defcamp finals 2022: Feedback on our first Attack/Defense CTF](https://www.riskinsight-wavestone.com/en/2022/11/defcamp-finals-2022-feedback-on-our-first-attack-defense-ctf/)
 - **VERY IMPORTANT:** [CISCO SECCON AD-CTF 2020](https://medium.com/csictf/cisco-seccon-2020-ad-ctf-2614b27f387a)
 
@@ -13,8 +13,7 @@ Please study and prepare :(
 
 ## Network Monitor & Detection
 ### Tools
-- **IMPORTANT:** [Caronte](https://github.com/eciavatta/caronte)
-- [Cardinal](https://github.com/vidar-team/Cardinal)
+- [Caronte](https://github.com/eciavatta/caronte)
 
 ### Strategy
 - **IMPORTANT:** Capture PCAP and Replay Attack (TCPDump + Tshark)
@@ -31,8 +30,8 @@ Please study and prepare :(
 - [CSE 545 F18: 4-16-18 "Attack-Defense CTF Prep](https://github.com/AchyuthaBharadwaj/PCTF)
 
 ### Strategy
-- Plant Persistence Backdoor 
 - Rust Scan > Nmap
+- SSH Backdoor [persistence.sh](persistence.sh)
 
 ### References
 - [HackTricks](https://book.hacktricks.xyz/welcome/readme)
@@ -44,12 +43,11 @@ Please study and prepare :(
 ## Patching
 > Remember to backup before patching!
 ### Tools
-- [Linux Smart Enumeration](https://github.com/diego-treitos/linux-smart-enumeration)
 - [Joern](https://github.com/joernio/joern) [[Demo](https://www.youtube.com/watch?v=qtGRNb_2Khs)]
 - [Snyk](https://github.com/snyk/) [[Demo](https://www.youtube.com/watch?v=tyL3Ouais1c)]
 
 ### Strategy
-- Find misconfiguration on Linux Host using LSE
+- Find misconfiguration on Linux Host using LinuxSmartEnumeration & LinPEAS
 - Source Code Review
 - Least Privilege (Access Control)
 - Change Default Passwords
