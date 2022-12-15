@@ -35,6 +35,7 @@ Please study and prepare :(
 - [Pentest Everything](https://viperone.gitbook.io/pentest-everything/)
 - [Pentester's Promiscuous Notebook](https://ppn.snovvcrash.rocks/)
 - [Linux Persistence Technique](https://www.linode.com/docs/guides/linux-red-team-persistence-techniques/)
+- [Pentest Checklist](https://systemweakness.com/basic-pentesting-cheat-sheet-c43e1647c753)
 
 ## Patching
 > Remember to backup before patching!
