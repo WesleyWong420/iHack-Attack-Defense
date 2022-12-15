@@ -33,6 +33,7 @@ Please study and prepare :(
 - [HackTricks](https://book.hacktricks.xyz/welcome/readme)
 - [Pentest Everything](https://viperone.gitbook.io/pentest-everything/)
 - [Pentester's Promiscuous Notebook](https://ppn.snovvcrash.rocks/)
+- [Linux Persistence Technique](https://www.linode.com/docs/guides/linux-red-team-persistence-techniques/)
 
 ## Patching
 ### Tools
@@ -41,6 +42,7 @@ Please study and prepare :(
 - [Snyk](https://github.com/snyk/) [[Demo](https://www.youtube.com/watch?v=tyL3Ouais1c)]
 
 ### Strategy
+- **Remember to backup before patching**
 - Find misconfiguration on Linux Host using LSE
 - Source Code Review
 - Least Privilege (Access Control)
