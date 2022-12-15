@@ -38,6 +38,7 @@ Please study and prepare :(
 ### Strategy
 - Rust Scan > Nmap
 - SSH Backdoor [[persistence.sh](persistence.sh)]
+- Use Meterpreter whenever possible
 
 ### References
 - [HackTricks](https://book.hacktricks.xyz/welcome/readme)
