@@ -3,6 +3,7 @@ Please study and prepare :(
 
 ## Overview
 - [How the Defcon Attack/Defense CTF 2018 Worked - LiveOverFlow](https://www.youtube.com/watch?v=RkaLyji9pNs)
+- [HackTheBox - CyberMayhem](https://www.youtube.com/watch?v=XPyp_RP7OMY&list=WL&index=3&t=19s)
 - **IMPORTANT:** [Defcamp finals 2022: Feedback on our first Attack/Defense CTF](https://www.riskinsight-wavestone.com/en/2022/11/defcamp-finals-2022-feedback-on-our-first-attack-defense-ctf/)
 
 ## Network Monitor & Detection
@@ -10,15 +11,17 @@ Please study and prepare :(
 - **IMPORTANT:** [Caronte](https://github.com/eciavatta/caronte)
 - [Cardinal](https://github.com/vidar-team/Cardinal)
 
-### Methodology
+### Strategy
 - **IMPORTANT:** Capture PCAP and Replay Attack (TCPDump + Tshark)
+- Parse Event Logs & `access.log` File
+- Check Established Connection (`netstat`) & Kill Enemy Shell
 
 ## Attacking
 ### Exploit Runner
 - [CSE 545 F18: 4-16-18 "Attack-Defense CTF Prep](https://github.com/AchyuthaBharadwaj/PCTF)
 - **IMPORTANT:** [CISCO SECCON AD-CTF 2020](https://medium.com/csictf/cisco-seccon-2020-ad-ctf-2614b27f387a)
 
-### Methodology
+### Strategy
 - Plant Persistence Backdoor 
 
 ### References
@@ -32,11 +35,12 @@ Please study and prepare :(
 - [Joern](https://github.com/joernio/joern) [[Demo](https://www.youtube.com/watch?v=qtGRNb_2Khs)]
 - [Snyk](https://github.com/snyk/) [[Demo](https://www.youtube.com/watch?v=tyL3Ouais1c)]
 
-### Methodology
+### Strategy
 - Find misconfiguration on Linux Host using LSE
-- Least Privilege
+- Least Privilege (Access Control)
 - Firewall Rule
-- Change default passwords
+- Change Default Passwords
+- Remove Backdoor (Hidden Files `.shell.php`)
 
 ### References
 - [ChatGPT](https://chat.openai.com/chat)
