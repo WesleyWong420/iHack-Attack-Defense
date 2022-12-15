@@ -32,6 +32,7 @@ Please study and prepare :(
 
 ### Strategy
 - Plant Persistence Backdoor 
+
   ```
   mkdir /root/.ssh/
   chmod 600 /root/.ssh/
