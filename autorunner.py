@@ -12,6 +12,7 @@ tickinterval = 5 * 60
 ignored_files = [
     '__init__.py',
     'utilities.py',
+    'sshrunner.py',
 ]
 
 def do_submit(folderpath):
@@ -32,4 +33,4 @@ while True:
     i += 1
     print(colored(f'[SLEEP] Sleeping...', 'yellow', attrs=["bold", "blink"]))
     time.sleep(tickinterval)
-    print('\n\n')
+    print('\n')
