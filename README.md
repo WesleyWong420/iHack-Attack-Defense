@@ -14,8 +14,6 @@ Please study and prepare :(
 ## Network Monitor & Detection
 ### Tools
 - [Caronte](https://github.com/eciavatta/caronte) [[Documentation](https://app.swaggerhub.com/apis-docs/eciavatta/caronte/WIP#/)]
-- [Packmate](https://gitlab.com/packmate/Packmate/-/blob/master/README_EN.md)
-- [Tulip](https://github.com/OpenAttackDefenseTools/tulip)
 
 ### Strategy
 
