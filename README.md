@@ -15,7 +15,7 @@ Please study and prepare :(
 ### Tools
 - [Caronte](https://github.com/eciavatta/caronte) [[Documentation](https://app.swaggerhub.com/apis-docs/eciavatta/caronte/WIP#/)]
 - [Cardinal](https://github.com/vidar-team/Cardinal)
-- [Packmate](https://gitlab.com/packmate/Packmate/-/blob/master/README_EN.md)\
+- [Packmate](https://gitlab.com/packmate/Packmate/-/blob/master/README_EN.md)
 - [Tulip](https://github.com/OpenAttackDefenseTools/tulip)
 
 ### Strategy
