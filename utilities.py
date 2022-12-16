@@ -3,7 +3,7 @@ from termcolor import colored
 import re
 
 def extract_flag(text):
-    return re.findall(r'1CJ2018\{\w{4}\}', text)
+    return re.findall(r'ihack\{\w{21}\}', text)
 
 def submit_flag(flag, host='10.40.0.2', port=5555):
     if isinstance(flag, list):
