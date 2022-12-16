@@ -59,7 +59,6 @@ Please study and prepare :(
 - Least Privilege (Access Control)
 - Change Default Passwords
 - Firewall Rule
-- SECCOMP [[Demo](https://attackdefense.com/challengedetailsnoauth?cid=1826)]
 - Hardening
   - Disable unsafe functions like `shell_exec` in `php.ini` config file
 
