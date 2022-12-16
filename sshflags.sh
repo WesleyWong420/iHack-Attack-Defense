@@ -1,7 +1,5 @@
-for i in $(seq 105 108); do$
-  echo "10.10.10.110.$i"$
-  ssh -o "BatchMode=Yes" -o "StrictHostKeyChecking=no" \$
-    -o "GlobalKnownHostsFile=/dev/null" -o "UserKnownHostsFile=/dev/null" \$
-    -i ~/home/kali/Desktop/updog/key.pub \$
-    root@10.10.110.$i "cat /root/flag.txt; echo; cat /opt/flag.txt; echo" 2>/dev/null$
-done$
+for i in $(seq 128 129); 
+do
+  echo "192.168.231.$i"
+  ssh -o "BatchMode=Yes" -o "StrictHostKeyChecking=no" -o "GlobalKnownHostsFile=/dev/null" -o "UserKnownHostsFile=/dev/null" root@192.168.231.$i "cat /home/kali/Desktop/flag.txt; echo; cat /home/kali/Desktop/flag.txt; echo" 2>/dev/null
+done
