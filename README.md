@@ -14,7 +14,6 @@ Please study and prepare :(
 ## Network Monitor & Detection
 ### Tools
 - [Caronte](https://github.com/eciavatta/caronte) [[Documentation](https://app.swaggerhub.com/apis-docs/eciavatta/caronte/WIP#/)]
-- [Cardinal](https://github.com/vidar-team/Cardinal)
 - [Packmate](https://gitlab.com/packmate/Packmate/-/blob/master/README_EN.md)
 - [Tulip](https://github.com/OpenAttackDefenseTools/tulip)
 
@@ -53,9 +52,6 @@ Please study and prepare :(
 
 ## Patching
 > Remember to backup before patching!
-### Tools
-- [Joern](https://github.com/joernio/joern) [[Demo](https://www.youtube.com/watch?v=qtGRNb_2Khs)]
-- [Snyk](https://github.com/snyk/) [[Demo](https://www.youtube.com/watch?v=tyL3Ouais1c)]
 
 ### Strategy
 - Find misconfiguration on Linux Host using LinuxSmartEnumeration & LinPEAS
