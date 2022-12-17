@@ -34,6 +34,7 @@ Please study and prepare :(
 
 ### Strategy
 - Rustscan > Nmap > Dir-busting > Subdomain-busting
+- SQLMap
 - Use meterpreter whenever possible
 - Meterpreter scripts & Nmap scripts enumeration
 - Crackmapexec for brute forcing SSH, FTP, SMB
