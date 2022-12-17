@@ -9,7 +9,6 @@ Please study and prepare :(
 
 ## Vuln Services
 - [CJ2018 CTF](https://github.com/farisv/CJ2018-Final-CTF) [[Solution](https://rhamaa.github.io/post/2018/10/17/Cyber-Jawara-2018-Final-Web-Exploitation/)]
-- [Vuln Service Example](https://github.com/oldeurope/rwthctf2012/tree/master/services)
 
 ## Network Monitor & Detection
 ### Tools
@@ -32,8 +31,6 @@ Please study and prepare :(
   - `nohup tcpdump -i tun0 -w tcpdump.cap -s 0 &`
 
 ## Attacking
-### Exploit Runner
-- [CSE 545 F18: 4-16-18 "Attack-Defense CTF Prep](https://github.com/AchyuthaBharadwaj/PCTF)
 
 ### Strategy
 - Rust Scan > Nmap
