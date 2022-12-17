@@ -38,6 +38,7 @@ Please study and prepare :(
 - Meterpreter scripts & Nmap scripts enumeration
 - Burp URL encoding
 - Crackmapexec for brute forcing SSH, FTP, SMB
+- Upload shell to FTP/SSH, and LFI to execute
 - Anon login FTP, MySQL
 - SQLMap (--os-shell)
 - LFI, IDOR, XXE, 
