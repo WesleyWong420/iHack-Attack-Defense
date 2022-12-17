@@ -41,6 +41,7 @@ Please study and prepare :(
 - Check bash history
 - sudo -l, suid, cronjobs
 - Linpeas
+- Lateral Movement - Hidden Services
 - SSH backdoor
 
 ### References
