@@ -34,11 +34,15 @@ Please study and prepare :(
 
 ### Strategy
 - Rustscan > Nmap > Dir-busting > Subdomain-busting
-- SQLMap
 - Use meterpreter whenever possible
 - Meterpreter scripts & Nmap scripts enumeration
+- Burp URL encoding
 - Crackmapexec for brute forcing SSH, FTP, SMB
+- Anon login FTP, MySQL
+- SQLMap (--os-shell)
+- LFI, IDOR, XXE, 
 - Check bash history
+- Grep recursive for passwords
 - sudo -l, suid, cronjobs
 - Linpeas
 - Lateral Movement - Hidden Services
