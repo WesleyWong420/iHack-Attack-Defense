@@ -33,12 +33,14 @@ Please study and prepare :(
 ## Attacking
 
 ### Strategy
-- Rustscan > Nmap
-- SSH backdoor
+- Rustscan > Nmap > Dir-busting > Subdomain-busting
 - Use meterpreter whenever possible
 - Meterpreter scripts & Nmap scripts enumeration
 - Crackmapexec for brute forcing SSH, FTP, SMB
 - Check bash history
+- sudo -l, suid, cronjobs
+- Linpeas
+- SSH backdoor
 
 ### References
 - [HackTricks](https://book.hacktricks.xyz/welcome/readme)
