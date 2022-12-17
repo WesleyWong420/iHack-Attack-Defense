@@ -33,9 +33,11 @@ Please study and prepare :(
 ## Attacking
 
 ### Strategy
-- Rust Scan > Nmap
-- SSH Backdoor [[persistence.sh](persistence.sh)]
+- Rustscan > Nmap
+- SSH backdoor
 - Use meterpreter whenever possible
+- Meterpreter scripts & Nmap scripts enumeration
+- Crackmapexec for brute forcing SSH, FTP, SMB
 - Check bash history
 
 ### References
