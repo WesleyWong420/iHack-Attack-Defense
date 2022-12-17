@@ -7,6 +7,6 @@ do
   kill -9 $_pid
   sleep 3
   data=`cat tcpdump.pcap`
-  python3 test.py
+  python3 ingestor.py
   sudo rm tcpdump.pcap
 done
