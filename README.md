@@ -42,7 +42,7 @@ Please study and prepare :(
 - SQLMap (--os-shell)
 - LFI, IDOR, XXE, 
 - Check bash history
-- Grep recursive for passwords
+- Grep recursive for passwords `grep -R -i "pass" *`
 - sudo -l, suid, cronjobs
 - Linpeas
 - Lateral Movement - Hidden Services
