@@ -14,8 +14,9 @@ tickinterval = 5 * 60
 ignored_files = [
     '__init__.py',
     'utilities.py',
-    'sshrunner.py',
     'test.py',
+    'ingestor.py',
+    'sshrunner.py',
     'autorunner.py'
 ]
 
@@ -26,11 +27,11 @@ def do_submit(folderpath):
             print(colored(f'[INFO][{datetime.now()}] Executing exploit in {file}!', 'blue', attrs=["bold"]))
             os.system(f'python3 {os.path.join(folderpath, file)}')
 
-print(colored(f'[INFO] Folder path set to {folderpath}', 'blue', attrs=["bold"]))
+print(colored(f'[INFO][{datetime.now()}] Folder path set to {folderpath}', 'blue', attrs=["bold"]))
 
 i = 0
 while True:
-    print(colored(f'[INFO] Submitting for tick {i}', 'blue', attrs=["bold"]))
+    print(colored(f'[INFO][{datetime.now()}] Submitting for tick {i}', 'blue', attrs=["bold"]))
     do_submit(folderpath)
 
     i += 1
