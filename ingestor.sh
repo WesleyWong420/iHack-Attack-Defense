@@ -4,8 +4,9 @@ COUNTER=1
 
 while true; 
 do 
+  now=$(date +"%T")
   sudo tcpdump -i eth0 -w tcpdump.pcap > /dev/null 2>&1 &
-  echo "${BLUE}Running TCPDump for tick ${COUNTER} ${NC}"
+  echo "${BLUE}[INFO][${now}] Running TCPDump for tick ${COUNTER} ${NC}"
   sleep 1
   _pid=$! 
   sleep 60
