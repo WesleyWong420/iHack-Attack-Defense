@@ -32,6 +32,7 @@ Please study and prepare :(
 ## Attacking
 
 ### Strategy
+- `ingestor.py`, `persistence.sh`, `sshflags.sh`, `utilities.py` 
 - Rustscan > Nmap > Dir-busting > Subdomain-busting
 - Use meterpreter whenever possible
 - Meterpreter scripts & Nmap scripts enumeration
