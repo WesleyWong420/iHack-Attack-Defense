@@ -45,7 +45,7 @@ Please study and prepare :(
 - Check bash history
 - Grep recursive for passwords `grep -R -i "pass" *`
 - sudo -l, suid, cronjobs
-- Linpeas
+- Linpeas + PowerUp
 - Lateral Movement - Hidden Services
 - SSH backdoor
 
