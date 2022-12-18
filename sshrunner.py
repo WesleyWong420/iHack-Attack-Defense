@@ -34,11 +34,11 @@ def do_submit(folderpath):
 
             # submit_flag(flags)
 
-print(colored(f'[INFO] Folder path set to {folderpath}', 'blue', attrs=["bold"]))
+print(colored(f'[INFO][{datetime.now()}] Folder path set to {folderpath}', 'blue', attrs=["bold"]))
 
 i = 0
 while True:
-    print(colored(f'[INFO] Submitting for tick {i}', 'blue', attrs=["bold"]))
+    print(colored(f'[INFO][{datetime.now()}] Submitting for tick {i}', 'blue', attrs=["bold"]))
     do_submit(folderpath)
 
     i += 1
