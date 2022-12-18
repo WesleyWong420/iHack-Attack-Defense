@@ -28,7 +28,7 @@ Please study and prepare :(
   - `kill -9 {PID}`
   - `cd /proc/{PID}; ls -al | grep cwd`
   - `tail /var/log/apache2/access.log`
-  - `nohup tcpdump -i tun0 -w tcpdump.cap -s 0 &`
+  - `nohup tcpdump -i eth0 -w tcpdump.cap -s 0 &`
 
 ## Attacking
 
