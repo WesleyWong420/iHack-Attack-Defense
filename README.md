@@ -1,5 +1,4 @@
-# iHack Attack & Defense CTF
-Please study and prepare :(
+# iHack 2022 Attack & Defense CTF
 
 ## Overview
 - **USEFUL**: [HackTheBox - CyberMayhem by Ippsec](https://www.youtube.com/watch?v=o42dgCOBkRk)
@@ -15,11 +14,6 @@ Please study and prepare :(
 
 ### Strategy
 
-- Remove Backdoor
-  - Hidden Files `.shell.php`
-  - SSH Keys
-  - Cronjobs
-  - User Accounts
 - Incident Response
   - `w`
   - `ps -aef --forest`
@@ -32,14 +26,10 @@ Please study and prepare :(
 ## Attacking
 
 ### Strategy
-- `ingestor.py`, `persistence.sh`, `sshflags.sh`, `utilities.py` 
-- Rustscan > Nmap > Dir-busting > Subdomain-busting
-- Use meterpreter whenever possible
-- Meterpreter scripts & Nmap scripts enumeration
-- Burp URL encoding
+- Rustscan > Nmap > Dirbusting > Subdomain-busting
 - Crackmapexec for brute forcing SSH, FTP, SMB
 - Upload shell to FTP/SSH, and LFI to execute
-- Anon login FTP, MySQL
+- Anon login for FTP, SMB & MySQL
 - SQLMap (--os-shell)
 - LFI, IDOR, XXE
 - Check bash history
@@ -57,18 +47,9 @@ Please study and prepare :(
 - [Pentest Checklist](https://systemweakness.com/basic-pentesting-cheat-sheet-c43e1647c753)
 
 ## Patching
-> Remember to backup before patching!
 
 ### Strategy
-- Find misconfiguration on Linux Host using LinuxSmartEnumeration & LinPEAS
-- Source Code Review
-- Least Privilege (Access Control)
 - Change Default Passwords
 - Firewall Rule
 - Hardening
   - Disable unsafe functions like `shell_exec` in `php.ini` config file
-
-### References
-- [ChatGPT](https://chat.openai.com/chat)
-- [Vulnerable Code Snippets 1](https://github.com/snoopysecurity/Vulnerable-Code-Snippets)
-- [Vulnerable Code Snippets 2](https://github.com/yeswehack/vulnerable-code-snippets)
