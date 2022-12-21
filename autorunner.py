@@ -14,9 +14,6 @@ tickinterval = 5 * 60
 ignored_files = [
     '__init__.py',
     'utilities.py',
-    'test.py',
-    'ingestor.py',
-    'sshrunner.py',
     'autorunner.py'
 ]
 
