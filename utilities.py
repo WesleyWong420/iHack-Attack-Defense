@@ -1,23 +1,18 @@
 from pwn import remote
 from termcolor import colored
+from datetime import datetime
 import re
+import requests
+import sys
+import os
 
 def extract_flag(text):
     return re.findall(r'ihack\{\w{21}\}', text)
 
-def submit_flag(flag, host='10.40.0.2', port=5555):
-    if isinstance(flag, list):
-        flag = '\n'.join(flag)
+def submit_flag(flag):
 
-    print(colored(f'[INFO] Submitting flag {flag} to {host}:{port}.', 'green', attrs=["bold"]))
+    cmd = "curl --location --request POST 'https://10.10.10.10/api/exercises/54ba9539-03a5-4441-9fb1-c85409f9ee0d/ctfad-submissions' --header 'Accept: application/json' --header 'Content-Type: application/json' --header 'Authorization: Bearer {19|ECXrUMhrzwhDy7GWvgWbmZyv7Vo4iLb636apq4I1}'--data-raw '{\"flags\": [" + flag + "]}'"
 
-    r = remote(host, port)
-    r.sendline(flag)
-    
-    if '\n' in flag:
-        for _ in range(len(flag.split('\n'))):
-            print(r.recvline())
-    else:
-        print(r.recvline())
+    os.system(f'{cmd}')
 
-    r.close()
+    print(colored(f'[INFO][{datetime.now()}] Submitting flag {flag}', 'green', attrs=["bold"]))
