@@ -30,10 +30,8 @@
 - Upload shell to FTP/SMB/SSH, and LFI to execute
 - Anon login for FTP, SMB & MSSQL
 - SQLMap (--os-shell)
-- Bash History
 - Grep recursive for passwords `grep -R -i "pass" *`
 - `sudo -l`, `suid`, `cronjobs`
-- Linpeas + PowerUp
 - SSH Keys Backdoor
 
 ### References
