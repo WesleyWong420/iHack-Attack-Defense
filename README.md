@@ -27,17 +27,14 @@
 
 ### Strategy
 - Rustscan > Nmap > Dirbusting > Subdomain-busting
-- Crackmapexec for brute forcing SSH, FTP, SMB
-- Upload shell to FTP/SSH, and LFI to execute
-- Anon login for FTP, SMB & MySQL
+- Upload shell to FTP/SMB/SSH, and LFI to execute
+- Anon login for FTP, SMB & MSSQL
 - SQLMap (--os-shell)
-- LFI, IDOR, XXE
-- Check bash history
+- Bash History
 - Grep recursive for passwords `grep -R -i "pass" *`
-- sudo -l, suid, cronjobs
+- `sudo -l`, `suid`, `cronjobs`
 - Linpeas + PowerUp
-- Lateral Movement - Hidden Services `netstat -tulpn` + Local Port Forwarding
-- SSH backdoor
+- SSH Keys Backdoor
 
 ### References
 - [HackTricks](https://book.hacktricks.xyz/welcome/readme)
@@ -50,6 +47,5 @@
 
 ### Strategy
 - Change Default Passwords
-- Firewall Rule
 - Hardening
   - Disable unsafe functions like `shell_exec` in `php.ini` config file
