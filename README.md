@@ -10,6 +10,9 @@
 ## Vuln Services
 - [CJ2018 CTF](https://github.com/farisv/CJ2018-Final-CTF) [[Solution](https://rhamaa.github.io/post/2018/10/17/Cyber-Jawara-2018-Final-Web-Exploitation/)]
 - [ICC2022-AD-CTF](https://github.com/CybersecNatLab/ICC2022-AD-CTF)
+- [HITB SECCCONF EDU CTF 2021](https://github.com/HITB-CyberWeek/hitbsecconf-ctf-2021)
+- [HITB SECCONF CTF 2022](https://github.com/HITB-CyberWeek/hitbsecconf-ctf-2022)
+- [HITB SECCONF CTF 2023](https://github.com/HITB-CyberWeek/hitbsecconf-ctf-2023)
 
 ## Attacking
 ### Tools
